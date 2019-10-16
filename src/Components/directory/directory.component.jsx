@@ -7,11 +7,11 @@ class Directory extends Component {
         super();
         this.state = {
             sections: [
-                { id: 1, title: 'HATS', imageUrl: 'https://i.ibb.co/cvpntL1/hats.png' },
-                { id: 2, title: 'JACKETS', imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png' },
-                { id: 3, title: 'SNEAKERS', imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png' },
-                { id: 4, title: 'WOMENS', size: 'large', imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png' },
-                { id: 5, title: 'MENS', size: 'large', imageUrl: 'https://i.ibb.co/R70vBrQ/men.png' }
+                { id: 1, title: 'HATS', linkUrl: '/hats', imageUrl: 'https://i.ibb.co/cvpntL1/hats.png' },                
+                { id: 2, title: 'JACKETS', linkUrl: '/jackets', imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png' },
+                { id: 3, title: 'SNEAKERS', linkUrl: '/sneakers', imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png' },
+                { id: 4, title: 'WOMENS', linkUrl: '/womens', size: 'large', imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png' },
+                { id: 5, title: 'MENS', linkUrl: '/mens', size: 'large', imageUrl: 'https://i.ibb.co/R70vBrQ/men.png' }
             ]
         }
     }
