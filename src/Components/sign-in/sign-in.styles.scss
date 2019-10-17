@@ -7,10 +7,15 @@ $mediaMinWidth: 576px;
     .title{
         margin: 10px 0;
     }
+
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width: $mediaMinWidth){
     .sign-in{
-        width: 30vw;
+        width: 380px;
     }
 }
